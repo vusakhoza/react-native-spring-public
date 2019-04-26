@@ -80,4 +80,4 @@ export class Login extends React.Component {
    - merchant_phone
    - response
   
-  The data types for the props and which actions they are required for is identical to the specification indicated in the [API Actions section](#api-actions) except that the sdk field is automatically set to mobile when using RN and the access key is passed as a string prop. Also, the response prop accepts a method that has been bound to the parent component instance in order to accept call backs from the child `Pay` component.
+  The data types for the props and which actions they are required for is identical to the specification indicated in the [JS API Actions section](#api-actions) except that the sdk field is automatically set to mobile when using RN and the access key is passed as a string prop. Also, the response prop accepts a method that has been bound to the parent component instance in order to accept call backs from the child `Pay` component.
